@@ -13,5 +13,4 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Slug", name: "slug", widget: "hidden", default: "{{slug}}"}
       - {label: "Content", name: "body", widget: "markdown"}
